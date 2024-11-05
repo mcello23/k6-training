@@ -65,4 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-This repo is inspired in the course of Fernando Papito with some modifications.
+This [repo]https://github.com/weareqacademy/curso-k6-basico is inspired in the course of Fernando Papito with some modifications.
