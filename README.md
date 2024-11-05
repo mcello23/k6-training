@@ -42,8 +42,9 @@
 
 Run the following commands to install project dependencies:
 
-```sh
-cd curso-k6-basico/api
+```
+sh
+cd k6-training/api
 yarn
 ```
 
@@ -65,4 +66,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-This [repo](https://github.com/weareqacademy/curso-k6-basico) is inspired in the course of Fernando Papito with some modifications.
+My repository is cloned from Fernando Papito [repo](https://github.com/weareqacademy/curso-k6-basico), with some modifications.
