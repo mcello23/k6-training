@@ -1,0 +1,4 @@
+api/src/.env
+tests/reports/result.html
+api/node_modules
+.DS_Store
