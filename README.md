@@ -176,55 +176,37 @@ Install k6-training using one of the following methods:
 
 3. Install the project dependencies:
 
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm install
-```
-
-
 **Using `yarn`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Yarn-2C8EBB.svg?style={badge_style}&logo=yarn&logoColor=white" />](https://yarnpkg.com/)
 
 ```sh
-❯ yarn install
+❯ yarn
 ```
 
 ###  Usage
 Run k6-training using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm start
-```
-
 
 **Using `yarn`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Yarn-2C8EBB.svg?style={badge_style}&logo=yarn&logoColor=white" />](https://yarnpkg.com/)
 
 ```sh
-❯ yarn start
+❯ yarn start dev
 ```
-
+localhost:3333 should be running
 
 ###  Testing
 Run the test suite using the following command:
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm test
-```
-
 
 **Using `yarn`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Yarn-2C8EBB.svg?style={badge_style}&logo=yarn&logoColor=white" />](https://yarnpkg.com/)
 
 ```sh
-❯ yarn test
+❯ Run the tests directly from package.json scripts.
 ```
-Run the tests directly from package.json scripts.
 
 Create a <b>.env</b> file at 
 ```
 api/src/.env
+```
+and add:
+```
 MONGO_URL=mongodb+srv://qa:<password>@cluster0.f0ygp.mongodb.net/UsersDB?retryWrites=true&w=majority&appName=Cluster0
 ```
 
